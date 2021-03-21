@@ -1,0 +1,64 @@
+/* GENERAL */
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(../img/background.jpg);
+    background-position: center;
+    background-size: cover;
+    color: #fff;
+    font-family: sans-serif;
+}
+
+
+/* MAIN */
+main .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1170px;
+}
+
+.ticket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.425);
+    border-radius: 20px;
+    box-shadow: 3px 8px 31px #000;
+    padding: 30px;
+    width: 70%;
+    height: 60%;
+
+}
+
+#basic-addon2{
+    min-width: 100px ;
+}
+
+.user h1{
+    font-size: 3rem;
+    text-shadow: 2px 4px 12px #000;
+    margin-bottom: 30px;
+}
+
+.ticket-price{
+    font-size: 2rem;
+    margin: 20px 0;
+}
+
+.ticket-price #price-type{
+    margin: 20px 0;
+}
+.ticket-price #price{
+    color: chartreuse;
+    margin: 20px 0;
+}
